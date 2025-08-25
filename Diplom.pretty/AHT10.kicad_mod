@@ -244,4 +244,15 @@
 		(uuid "9f5a1695-78bb-4201-9461-1658d30eb0b4")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Sensor_Pressure.3dshapes/NXP_MPL115A1_LGA-8_3x5mm_P1.25mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
