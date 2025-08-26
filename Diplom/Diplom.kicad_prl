@@ -49,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_f7fffffb",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_f7ffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -115,19 +115,19 @@
     "files": [
       {
         "name": "Diplom.kicad_pcb",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
-          "maximized": false,
-          "pos_x": -7,
-          "pos_y": 0,
-          "size_x": 974,
-          "size_y": 1047
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1056
         }
       },
       {
         "name": "Diplom.kicad_sch",
-        "open": true,
+        "open": false,
         "window": {
           "display": 0,
           "maximized": false,
