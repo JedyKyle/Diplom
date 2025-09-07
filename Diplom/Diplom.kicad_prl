@@ -24,7 +24,7 @@
       "otherItems": true,
       "pads": true,
       "text": true,
-      "tracks": false,
+      "tracks": true,
       "vias": true,
       "zones": false
     },
@@ -115,14 +115,26 @@
     "files": [
       {
         "name": "Diplom.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": -7,
+          "pos_y": 0,
+          "size_x": 974,
+          "size_y": 1047
+        }
+      },
+      {
+        "name": "Diplom.kicad_sch",
         "open": true,
         "window": {
           "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1056
+          "maximized": false,
+          "pos_x": 953,
+          "pos_y": 0,
+          "size_x": 974,
+          "size_y": 1047
         }
       }
     ]
