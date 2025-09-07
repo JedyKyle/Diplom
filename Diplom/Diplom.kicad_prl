@@ -114,19 +114,19 @@
   "project": {
     "files": [
       {
-        "name": "Diplom.kicad_pcb",
+        "name": "Diplom.kicad_sch",
         "open": false,
         "window": {
           "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1056
+          "maximized": false,
+          "pos_x": 953,
+          "pos_y": 0,
+          "size_x": 974,
+          "size_y": 1047
         }
       },
       {
-        "name": "Diplom.kicad_sch",
+        "name": "Diplom.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,

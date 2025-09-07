@@ -16157,12 +16157,12 @@
 			)
 		)
 	)
-	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d4322909-d710-4855-8b45-a6ab3083bd1a")
-		(at 122.38 99.08 90)
-		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
-		(tags "Through hole pin header THT 1x02 2.54mm single row")
+		(at 119.66 99.08 90)
+		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
+		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J1"
 			(at 0 -2.38 90)
 			(layer "F.SilkS")
@@ -16174,8 +16174,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 0 4.919999 90)
+		(property "Value" "Conn_01x03_Pin"
+			(at 0 7.46 90)
 			(layer "F.Fab")
 			(uuid "d5eb07b6-7770-4273-b827-bb7730386939")
 			(effects
@@ -16197,7 +16197,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Generic connector, single row, 01x03, script generated"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16216,33 +16216,33 @@
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
-			(end 0 -1.379999)
+			(end 0 -1.38)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "741341d6-c581-4a16-a04f-c578dd23871d")
+			(uuid "9159f0c3-8e30-410c-8eb0-4531a24cca0d")
 		)
 		(fp_line
-			(start -1.379999 0)
+			(start -1.38 0)
 			(end -1.38 -1.38)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c407ef6f-e90a-4c94-a52a-5241c85d2dca")
+			(uuid "408fc8d9-1724-40a4-b499-74787fe9eafa")
 		)
 		(fp_line
 			(start 1.38 1.27)
-			(end 1.38 3.92)
+			(end 1.38 6.46)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7b4306e2-3b9b-4984-ba1f-9943e9938c54")
+			(uuid "56de9fd8-b1f2-49e6-86fe-e2c4c87a0288")
 		)
 		(fp_line
 			(start -1.38 1.27)
@@ -16252,27 +16252,27 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f55b9633-da3d-4385-8430-2ada8790b82b")
+			(uuid "7f100326-1350-4236-9229-7b94d3d6257c")
 		)
 		(fp_line
 			(start -1.38 1.27)
-			(end -1.38 3.92)
+			(end -1.38 6.46)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3351f95d-86c5-43c0-8bfd-8fcfc337c933")
+			(uuid "79e35b31-4511-4871-b566-8dd6c23f76f2")
 		)
 		(fp_line
-			(start -1.38 3.92)
-			(end 1.38 3.92)
+			(start -1.38 6.46)
+			(end 1.38 6.46)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b4fe1403-3e1b-4735-acb4-c6e5eca8a5cb")
+			(uuid "e50cdacb-1ee1-49e9-a2f8-fb2af7d82655")
 		)
 		(fp_line
 			(start 1.77 -1.77)
@@ -16282,47 +16282,47 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "baec7e27-fa79-4512-91ba-ef8919a881dd")
+			(uuid "ea52fbdf-5028-4d05-a89d-f509cfab0735")
 		)
 		(fp_line
 			(start -1.77 -1.77)
-			(end -1.77 4.32)
+			(end -1.77 6.85)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "dca508f8-c35c-4a4a-a38e-96beb401bfa4")
+			(uuid "d720badf-8dc8-4e94-9cef-ddeca36db216")
 		)
 		(fp_line
-			(start 1.77 4.32)
+			(start 1.77 6.85)
 			(end 1.77 -1.77)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b7b32c41-6610-4f8a-a359-afecee461fb9")
+			(uuid "c1ea6c4b-d713-4849-8ae6-0fec87d0df70")
 		)
 		(fp_line
-			(start -1.77 4.32)
-			(end 1.77 4.32)
+			(start -1.77 6.85)
+			(end 1.77 6.85)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "330aa6c6-6b63-4d27-94df-a66abee04ea3")
+			(uuid "bfbafe63-05f8-4778-b3f8-f5a0149043e5")
 		)
 		(fp_line
 			(start 1.27 -1.27)
-			(end 1.27 3.81)
+			(end 1.27 6.35)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "789e57ec-58cd-40a0-aa63-7a802845aae5")
+			(uuid "cb2d03ed-95b2-4d0d-b8a4-458b18731e98")
 		)
 		(fp_line
 			(start -0.635 -1.27)
@@ -16332,7 +16332,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "80a19949-2e79-43d6-90a3-1edc4487abc6")
+			(uuid "60f2a529-9cb0-4c1c-bed1-149cb1429e23")
 		)
 		(fp_line
 			(start -1.27 -0.635)
@@ -16342,30 +16342,30 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e0b5933f-18b4-4a5e-a35f-9d669de044d0")
+			(uuid "2f5ea2b1-f80d-4b7c-9d30-19ee8a8df9bf")
 		)
 		(fp_line
-			(start 1.27 3.81)
-			(end -1.27 3.81)
+			(start 1.27 6.35)
+			(end -1.27 6.35)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b03d44b7-216c-40aa-af33-6061689cbac3")
+			(uuid "186fc374-5193-4f60-a857-e400bb2314da")
 		)
 		(fp_line
-			(start -1.27 3.81)
+			(start -1.27 6.35)
 			(end -1.27 -0.635)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b118d92c-354a-4e73-9aee-6d0b5317d14d")
+			(uuid "8e6d7c4e-ddf3-448d-98b6-7a8caea0eafe")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.270001 0)
+			(at 0 2.54 180)
 			(layer "F.Fab")
 			(uuid "72c1ca55-76b4-4468-a600-de0155ef84bb")
 			(effects
@@ -16381,7 +16381,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 65 "/MCU/USART2_TX")
+			(net 1 "GND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "90fbe851-60d5-4587-adaf-a3376c52e77e")
@@ -16392,13 +16392,24 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 57 "/MCU/USART2_RX")
+			(net 65 "/MCU/USART2_TX")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "fc4a995c-8753-41e6-a340-e50327f4d6e7")
 		)
+		(pad "3" thru_hole circle
+			(at 0 5.08 90)
+			(size 1.7 1.7)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 57 "/MCU/USART2_RX")
+			(pinfunction "Pin_3")
+			(pintype "passive")
+			(uuid "b2484f3d-848e-4b1f-997f-9417809bfdd9")
+		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18553,7 +18564,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -2.099999 -1.750001) (xy -2.1 1.750001) (xy 2.099999 1.750001) (xy 2.1 -1.750001)
+				(xy -2.099999 -1.750001) (xy -2.1 1.750002) (xy 2.099999 1.750001) (xy 2.1 -1.750002)
 			)
 			(stroke
 				(width 0.05)
