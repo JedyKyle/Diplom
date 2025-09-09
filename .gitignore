@@ -16,6 +16,8 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+Diplom/fp-lib-table
+Diplom/sym-lib-table
 ~*.lck
 \#auto_saved_files#
 
