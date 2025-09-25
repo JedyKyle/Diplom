@@ -6979,7 +6979,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "75924f5a-6468-473f-b48c-8314ae9871bd")
+		(uuid "75924f5a-6468-473f-b48c-8314ae9871be")
 	)
 	(label "AXEL_SCK"
 		(at 172.72 106.68 180)
@@ -6989,7 +6989,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "75924f5a-6468-473f-b48c-8314ae9871bd")
+		(uuid "75924f5a-6468-473f-b48c-8314ae9871bf")
 	)
 	(label "AXEL_INT"
 		(at 172.72 104.14 180)
@@ -6999,7 +6999,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "75924f5a-6468-473f-b48c-8314ae9871bd")
+		(uuid "75924f5a-6468-473f-b48c-8314ae9871c0")
 	)
 	(label "M0_LORA"
 		(at 121.92 135.89 180)
@@ -13252,6 +13252,72 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 328.93 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b08bee7f-1fec-4e95-a9ed-1e9fbb56ffd5")
+		(property "Reference" "#PWR064"
+			(at 328.93 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 328.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 328.93 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "157463d8-b278-46ca-9b64-7ab3bdcd9558")
+		)
+		(instances
+			(project "Diplom"
+				(path "/c3b9ff52-a8d6-450c-a11b-f6a6738b7917/f19e7439-0709-4f6f-9ba2-8e4e7d5c3f4b"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 118.11 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15560,72 +15626,6 @@
 			(project "Diplom"
 				(path "/c3b9ff52-a8d6-450c-a11b-f6a6738b7917/f19e7439-0709-4f6f-9ba2-8e4e7d5c3f4b"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 328.93 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd9fdb68-e4d5-45bb-aa8c-e20f458dd713")
-		(property "Reference" "#PWR064"
-			(at 328.93 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD_MCU"
-			(at 328.93 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 328.93 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 328.93 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 328.93 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e4fa21b-013e-4c02-b8e4-90673a2723c8")
-		)
-		(instances
-			(project "Diplom"
-				(path "/c3b9ff52-a8d6-450c-a11b-f6a6738b7917/f19e7439-0709-4f6f-9ba2-8e4e7d5c3f4b"
-					(reference "#PWR064")
 					(unit 1)
 				)
 			)
