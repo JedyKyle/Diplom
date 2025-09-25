@@ -4574,6 +4574,12 @@
 		(uuid "0b0e102d-509b-47ec-81b0-3f32795f8a4f")
 	)
 	(junction
+		(at 218.44 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12db6e55-aeb9-445f-93a9-f31529674d9c")
+	)
+	(junction
 		(at 67.31 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4825,12 +4831,6 @@
 		(color 0 0 0 0)
 		(uuid "fd239c15-25ad-462d-917a-8c439af8d188")
 	)
-	(junction
-		(at 217.17 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff78fee2-54ec-4e00-b6c2-7c72d5b63278")
-	)
 	(wire
 		(pts
 			(xy 27.94 91.44) (xy 29.21 91.44)
@@ -4863,7 +4863,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 187.96) (xy 217.17 187.96)
+			(xy 207.01 187.96) (xy 218.44 187.96)
 		)
 		(stroke
 			(width 0)
@@ -5763,7 +5763,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 195.58) (xy 217.17 195.58)
+			(xy 207.01 195.58) (xy 218.44 195.58)
 		)
 		(stroke
 			(width 0)
@@ -11638,7 +11638,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 217.17 187.96 0)
+		(at 218.44 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11647,7 +11647,7 @@
 		(fields_autoplaced yes)
 		(uuid "807a476a-95bf-4d79-8884-92956bcafa54")
 		(property "Reference" "#PWR041"
-			(at 217.17 191.77 0)
+			(at 218.44 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11656,7 +11656,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 217.17 182.88 0)
+			(at 218.44 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11664,7 +11664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 187.96 0)
+			(at 218.44 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11673,7 +11673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 187.96 0)
+			(at 218.44 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11682,7 +11682,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 217.17 187.96 0)
+			(at 218.44 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13825,7 +13825,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 217.17 191.77 0)
+		(at 218.44 191.77 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13834,7 +13834,7 @@
 		(dnp no)
 		(uuid "c4e9d4e8-1cd8-4e04-a7ef-57402c19dc8c")
 		(property "Reference" "C25"
-			(at 221.234 193.802 90)
+			(at 222.504 193.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13843,7 +13843,7 @@
 			)
 		)
 		(property "Value" "10 мкФ 25 В"
-			(at 212.852 197.612 90)
+			(at 214.122 197.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13852,7 +13852,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 216.2048 195.58 0)
+			(at 217.4748 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13861,7 +13861,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 191.77 0)
+			(at 218.44 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13870,7 +13870,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 217.17 191.77 0)
+			(at 218.44 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13879,7 +13879,7 @@
 			)
 		)
 		(property "Sim.Library" ""
-			(at 217.17 191.77 0)
+			(at 218.44 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13888,7 +13888,7 @@
 			)
 		)
 		(property "Sim.Name" ""
-			(at 217.17 191.77 0)
+			(at 218.44 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13897,7 +13897,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 217.17 191.77 0)
+			(at 218.44 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
