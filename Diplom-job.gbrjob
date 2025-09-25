@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.2"
     },
-    "CreationDate": "2025-09-24T23:37:42+05:00"
+    "CreationDate": "2025-09-25T15:04:07+05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 100.05,
-      "Y": 80.05
+      "X": 100.4,
+      "Y": 80.4
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -62,6 +62,16 @@
       "Path": "Diplom-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Diplom-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Diplom-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
     },
     {
       "Path": "Diplom-Edge_Cuts.gbr",
